@@ -1,3 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.gradient {
+  background: rgb(0, 53, 88);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 53, 88, 1) 0%,
+    rgba(0, 95, 129, 1) 54%,
+    rgba(1, 145, 171, 1) 100%
+  );
+}
+
 html,
 body {
   padding: 0;
@@ -13,6 +27,7 @@ a {
 
 * {
   box-sizing: border-box;
+  font-family: Poppins;
 }
 
 @media (prefers-color-scheme: dark) {
